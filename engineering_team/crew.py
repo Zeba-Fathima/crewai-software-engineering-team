@@ -77,6 +77,5 @@ class EngineeringTeam():
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            verbose=True,
-            tracing=True
+            verbose=True
         )
